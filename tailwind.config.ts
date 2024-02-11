@@ -34,6 +34,10 @@ const config: Config = {
           "0px 81px 32px 0px rgba(0, 0, 0, 0.01)",
           "0px 126px 35px 0px rgba(0, 0, 0, 0.00)",
         ].join(", "),
+        "card-shadow": [
+          "0px 0px 0px 0px rgba(0, 0, 0, 0.10)",
+          "0px 41px 89px 0px rgba(0, 0, 0, 0.10)",
+        ].join(", "),
       },
     },
   },

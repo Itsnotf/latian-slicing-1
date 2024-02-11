@@ -24,7 +24,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="mx-4 py-[38px] flex justify-between items-center md:mx-16 lg:mx-32 font-bold  ">
+    <div className="mx-4 py-[38px] flex justify-between items-center md:mx-16 lg:mx-32 font-bold   ">
       <div className="flex gap-2 justify-center items-center lg:order-1 sm:order-3">
         <Image src={logo} alt="Logo Website" />
         <h1 className="text-2xl">Travlog</h1>
