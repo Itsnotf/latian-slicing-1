@@ -5,8 +5,7 @@ import Destionation from "@/components/Destination";
 import TravelPoint from "@/components/TravelPoint";
 import Features from "@/components/Features";
 import Testimoni from "@/components/Testimoni";
-import Vector from "../../public/assets/Vector.svg";
-import Image from "next/image";
+import Comment from "@/components/Comment";
 
 export default function Home() {
   return (
@@ -18,6 +17,7 @@ export default function Home() {
       <TravelPoint />
       <Features />
       <Testimoni />
+      <Comment />
     </section>
   );
 }
